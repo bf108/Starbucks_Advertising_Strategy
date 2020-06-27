@@ -7,15 +7,14 @@ The task is to use the training data to understand what patterns in customer dat
 
 IRR depicts how many more customers purchased the product with the promotion, as compared to if they didn't receive the promotion. Mathematically, it's the ratio of the number of purchasers in the promotion group to the total number of customers in the purchasers group (_treatment_) minus the ratio of the number of purchasers in the non-promotional group to the total number of customers in the non-promotional group (_control_).
 
-$$ IRR = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}} $$
+<a href="https://www.codecogs.com/eqnedit.php?latex=IRR&space;=&space;\frac{purch}{cust_t}&space;-&space;\frac{purch_c}{cust_c}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?IRR&space;=&space;\frac{purch}{cust_t}&space;-&space;\frac{purch_c}{cust_c}" title="IRR = \frac{purch}{cust_t} - \frac{purch_c}{cust_c}" /></a>
 
 
 * **Net Incremental Revenue (NIR)**
 
 NIR depicts how much is made (or lost) by sending out the promotion. Mathematically, this is 10 times the total number of purchasers that received the promotion minus 0.15 times the number of promotions sent out, minus 10 times the number of purchasers who were not given the promotion.
 
-$$ NIR = (10\cdot purch_{treat} - 0.15 \cdot cust_{treat}) - 10 \cdot purch_{ctrl}$$
-
+<a href="https://www.codecogs.com/eqnedit.php?latex=NIR&space;=&space;(10&space;\cdot&space;purch_t&space;-0.15\cdot&space;cust_t)&space;-&space;10&space;\cdot&space;purch_c" target="_blank"><img src="https://latex.codecogs.com/gif.latex?NIR&space;=&space;(10&space;\cdot&space;purch_t&space;-0.15\cdot&space;cust_t)&space;-&space;10&space;\cdot&space;purch_c" title="NIR = (10 \cdot purch_t -0.15\cdot cust_t) - 10 \cdot purch_c" /></a>
 
 #### How To Test Your Strategy?
 
